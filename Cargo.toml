@@ -1,0 +1,15 @@
+[package]
+name = "xitca-web-wasm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+xitca-web = "0.1"
+
+[patch.crates-io]
+xitca-http = { git = "https://github.com/HFQR/xitca-web.git" }
+xitca-io = { git = "https://github.com/HFQR/xitca-web.git" }
+xitca-unsafe-collection = { git = "https://github.com/HFQR/xitca-web.git" }
+xitca-service = { git = "https://github.com/HFQR/xitca-web.git" }
+xitca-server = { git = "https://github.com/HFQR/xitca-web.git" }
+xitca-web = { git = "https://github.com/HFQR/xitca-web.git" }
