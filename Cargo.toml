@@ -13,3 +13,5 @@ xitca-unsafe-collection = { git = "https://github.com/HFQR/xitca-web.git" }
 xitca-service = { git = "https://github.com/HFQR/xitca-web.git" }
 xitca-server = { git = "https://github.com/HFQR/xitca-web.git" }
 xitca-web = { git = "https://github.com/HFQR/xitca-web.git" }
+
+mio = { git = "https://github.com/fakeshadow/mio", branch = "wasi/event_error" }

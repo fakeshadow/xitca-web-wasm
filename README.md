@@ -2,14 +2,14 @@
 
 ## Requirement
 
--. nightly Rust.
+- nightly Rust.
 
--. [wasmtime](https://docs.wasmtime.dev/).
+- [wasmtime](https://docs.wasmtime.dev/) cli.
 
 ## How to
 
--. install wasmtime cli. See doc for how to: <https://docs.wasmtime.dev/cli-install.html>
+- install wasmtime cli. See doc for how to: <https://docs.wasmtime.dev/cli-install.html>
 
--. compile the project with `RUSTFLAGS="--cfg tokio_unstable" cargo build --release --target wasm32-wasi`
+- compile the project with `RUSTFLAGS="--cfg tokio_unstable" cargo build --release --target wasm32-wasi`
 
--. run the compiled wasm file with `wasmtime run ./target/wasm32-wasi/release/xitca-web-wasm.wasm --tcplisten 127.0.0.1:8080 --env FD_COUNT=3`
+- run the compiled wasm file with `wasmtime run ./target/wasm32-wasi/release/xitca-web-wasm.wasm --tcplisten 127.0.0.1:8080 --env FD_COUNT=3`
