@@ -15,3 +15,8 @@ xitca-server = { git = "https://github.com/HFQR/xitca-web.git" }
 xitca-web = { git = "https://github.com/HFQR/xitca-web.git" }
 
 mio = { git = "https://github.com/fakeshadow/mio", branch = "wasi/event_error" }
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
